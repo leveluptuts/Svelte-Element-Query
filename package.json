@@ -4,6 +4,9 @@
   "devDependencies": {
     "typescript": "^4.3.5"
   },
+  "files": [
+    ".dist/"
+  ],
   "keywords": [
     "svelte",
     "actions",
@@ -12,11 +15,11 @@
   "license": "ISC",
   "module": "./dist/index.js",
   "name": "@leveluptuts/svelte-element-query",
-  "prepublish": "tsc",
+  "prepublishOnly": "npm run tsc",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
