@@ -52,3 +52,5 @@ Learn Svelte!
 ### https://syntax.fm/
 
 A Tasty Treats Podcast for Web Developers. Ft Wes Bos & Scott Tolinski
+
+Thank you!
