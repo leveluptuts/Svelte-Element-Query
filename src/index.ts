@@ -14,7 +14,7 @@ export const container = (
       if (nodeSize > sizes[property]) activeClass = property;
       node.classList.remove(property);
     }
-    node.classList.add(activeClass);
+    if (activeClass) node.classList.add(activeClass);
   });
 
   ro.observe(node);
