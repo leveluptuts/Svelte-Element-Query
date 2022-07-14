@@ -1,25 +1,26 @@
 {
-  "author": "Scott Tolinski",
-  "description": "A Svelte Action for using element queries",
-  "devDependencies": {
-    "typescript": "^4.7.2"
-  },
-  "files": [
-    "dist/**/*"
-  ],
-  "keywords": [
-    "svelte",
-    "actions",
-    "css"
-  ],
-  "license": "ISC",
-  "module": "./dist/index.js",
-  "name": "@leveluptuts/svelte-element-query",
-  "prepublishOnly": "npm run tsc",
-  "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "types": "dist/index.d.ts",
-  "version": "1.0.5"
+	"author": "Scott Tolinski",
+	"description": "A Svelte Action for using element queries",
+	"devDependencies": {
+		"typescript": "^4.7.4"
+	},
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"keywords": [
+		"svelte",
+		"actions",
+		"css"
+	],
+	"license": "ISC",
+	"main": "./dist/index.js",
+	"name": "@leveluptuts/svelte-element-query",
+	"prepublishOnly": "npm run tsc",
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"version": "1.0.5"
 }
